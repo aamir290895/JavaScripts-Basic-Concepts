@@ -26,7 +26,7 @@ class Dog extends Animal {
   dog.speak(); // Output: Buddy barks.
 
 
- class Player {
+ export class Player {
     constructor(name, age , height) {
         this.name = name;
         this.age = age;

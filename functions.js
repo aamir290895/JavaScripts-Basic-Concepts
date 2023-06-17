@@ -71,7 +71,7 @@ console.log(squaredNumbers);
 //They are used when solving problems that can be divided into smaller, identical subproblems.
 
 
-function factorial(n) {
+export function factorial(n) {
   if (n === 0 || n === 1) {
     return 1;
   }
