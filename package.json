@@ -1,8 +1,9 @@
 {
   "name": "javascripts-basic-concepts",
   "version": "1.0.0",
+  "description": "",
   "main": "main.js",
-  "type": "module", 
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,7 +16,5 @@
   "bugs": {
     "url": "https://github.com/aamir290895/JavaScripts-Basic-Concepts/issues"
   },
-  "homepage": "https://github.com/aamir290895/JavaScripts-Basic-Concepts#readme",
-  "description": ""
-
+  "homepage": "https://github.com/aamir290895/JavaScripts-Basic-Concepts#readme"
 }

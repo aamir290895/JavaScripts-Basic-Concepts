@@ -1,15 +1,16 @@
+let k = 1;
+
 function fetchData() {
     return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        let k = 1;
-        const data = 2 /k ;
-        k--;
-        if (data === 2 ) {
+        let data = [2 /k , 3/k];
+
+        data.forEach( (data )=> {
+        if (data === 2){
           resolve(data)
-        } else {
+        } else { 
           reject('Error: Data not found'); // Error occurred during the operation
         }
-      }, 2000); // Simulating an asynchronous operation with a delay of 2 seconds
+    })
     });
   }
   
